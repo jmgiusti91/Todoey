@@ -8,7 +8,8 @@
 
 import Foundation
 
-class Item: Encodable {
+//Con Codable nuestra clase implementa los protocols Encodable y Decodable
+class Item: Codable {
     var title: String = ""
     var done: Bool = false
 }
